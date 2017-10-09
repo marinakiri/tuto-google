@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+}
+
+header,
+main,
+footer {
+    border: 2px solid green;
+}
+
+div {
+    border: 2px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
